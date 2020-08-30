@@ -1,0 +1,19 @@
+{
+  "name": "wifidevicesscannerapi",
+  "version": "1.0.0",
+  "description": "Find devices connected to your wifi networks, works on Linux and Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliendu11/WifiDevicesScannerAPI-JS.git"
+  },
+  "author": "juliendu11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliendu11/WifiDevicesScannerAPI-JS/issues"
+  },
+  "homepage": "https://github.com/juliendu11/WifiDevicesScannerAPI-JS#readme"
+}
