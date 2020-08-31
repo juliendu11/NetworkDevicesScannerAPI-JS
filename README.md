@@ -21,7 +21,7 @@ const connections = instance.findConnections(); // => [{Name, Address}]
 
 const myWifiConnection = connections[0] // Select the type of connection on which you want to launch a scan, for wifi the name starts with w (wlan, wlp). Here is the first element of the table for me
 
-console.log(await instance.findDevices())
+console.log(await instance.findDevices(myWifiConnection))
 
 //Output example:
 // [
