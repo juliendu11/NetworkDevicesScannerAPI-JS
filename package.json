@@ -1,7 +1,7 @@
 {
-  "name": "wifi-devices-scanner-api",
+  "name": "network-devices-scanner-api",
   "version": "1.0.0",
-  "description": "Find devices connected to your wifi networks, works on Linux and Windows",
+  "description": "Finds devices connected to the same networks as you. Module made in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juliendu11/WifiDevicesScannerAPI-JS.git"
+    "url": "git+https://github.com/juliendu11/NetworkDevicesScannerAPI-JS.git"
   },
   "author": "juliendu11",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juliendu11/WifiDevicesScannerAPI-JS/issues"
+    "url": "https://github.com/juliendu11/NetworkDevicesScannerAPI-JS/issues"
   },
-  "homepage": "https://github.com/juliendu11/WifiDevicesScannerAPI-JS#readme",
+  "homepage": "https://github.com/juliendu11/NetworkDevicesScannerAPI-JS#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.10",

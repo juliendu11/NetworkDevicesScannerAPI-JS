@@ -3,7 +3,7 @@ const dns = require('dns');
 import { ConnectionInfo } from './Models/ConnectionInfo';
 import { DeviceInfo } from './Models/DeviceInfo';
 
-export class WifiDevicesScannerAPI {
+export class NetworkDevicesScannerAPI {
     public findConnections(): ConnectionInfo[] {
         const nets = networkInterfaces();
         const results: ConnectionInfo[] = []

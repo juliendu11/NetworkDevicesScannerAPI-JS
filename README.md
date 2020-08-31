@@ -1,4 +1,4 @@
-# WifiDevicesScannerAPI-JS
+# NetworkDevicesScannerAPI-JS
 
 Finds devices connected to the same networks as you. Module made in Typescript
 
@@ -9,14 +9,14 @@ Finds devices connected to the same networks as you. Module made in Typescript
 
 ## How to use ? 
 
-Create a instance of WifiDevicesScannerAPI
+Create a instance of NetworkDevicesScannerAPI
 
 ⚠️ Searching for a device may take a while
 
 ```javascript
-const {WifiDevicesScannerAPI} =require('wifi-devices-scanner-api')
+const {NetworkDevicesScannerAPI} =require('network-devices-scanner-api')
 
-const instance = new WifiDevicesScannerAPI()
+const instance = new NetworkDevicesScannerAPI()
 const connections = instance.findConnections(); // => [{Name, Address}]
 
 const myWifiConnection = connections[0] // Select the type of connection on which you want to launch a scan, for wifi the name starts with w (wlan, wlp). Here is the first element of the table for me
