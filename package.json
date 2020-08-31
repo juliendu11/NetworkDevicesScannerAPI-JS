@@ -1,5 +1,5 @@
 {
-  "name": "wifidevicesscannerapi",
+  "name": "wifi-devices-scanner-api",
   "version": "1.0.0",
   "description": "Find devices connected to your wifi networks, works on Linux and Windows",
   "main": "dist/index.js",
