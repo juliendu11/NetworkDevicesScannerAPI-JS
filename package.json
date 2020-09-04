@@ -1,5 +1,5 @@
 {
-  "name": "network-devices-scanner-api",
+  "name": "@juliendu11/network-devices-scanner-api",
   "version": "1.0.0",
   "description": "Finds devices connected to the same networks as you. Module made in Typescript",
   "main": "dist/index.js",
