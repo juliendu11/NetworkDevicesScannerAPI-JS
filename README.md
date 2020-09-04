@@ -5,6 +5,7 @@ Finds devices connected to the same networks as you. Module made in Typescript
 ## Install
 
 ```
+npm i @juliendu11/network-devices-scanner-api
 ```
 
 ## How to use ? 
