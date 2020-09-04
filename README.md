@@ -15,7 +15,7 @@ Create a instance of NetworkDevicesScannerAPI
 ⚠️ Searching for a device may take a while
 
 ```javascript
-const {NetworkDevicesScannerAPI} =require('network-devices-scanner-api')
+const {NetworkDevicesScannerAPI} =require('@juliendu11/network-devices-scanner-api')
 
 const instance = new NetworkDevicesScannerAPI()
 const connections = instance.findConnections(); // => [{Name, Address}]
